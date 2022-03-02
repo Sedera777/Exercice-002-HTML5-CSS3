@@ -1,0 +1,255 @@
+html, body {
+     margin:  0;
+     padding: 0;
+     font-size: .9rem;
+     font-family: Raleway, Arial, sans-serif;
+}
+.pageone > p   {
+    color: #FFFFFF ;
+}
+#t2 {
+    margin-left: -60%;
+}
+a {
+    color: #3d9f96;
+    text-decoration: underline;
+}
+.greyhr {
+    border: 1px solid #7e7e7e;
+}
+#bigtitle {
+    font-size: 2.5rem;
+    text-align: center;
+}
+#green-thm {
+    color: #3d9f96;
+    text-align: center;
+}
+button {
+    width: 10rem;
+    height: 4%;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: #3d9f96;
+    border-radius: 50rem;
+    background-color: #3d9f96;
+}
+.footer1 {
+    margin-top: -10%;
+    padding-bottom: 4%;
+    position:relative;
+    text-align: center;
+    background-color: #f9f9f9; 
+}
+.icone {
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+}
+.flex {
+    margin: 1.5%;
+}
+.footer1 > p{
+    color: #3d9f96;
+    text-align: center;
+}
+.pagetwo {
+    margin-top: 4%;
+}
+.awesomeness {
+    display: flex;
+    align-items: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    justify-content: center;
+}
+.pagetwo > p{
+    text-align: center;
+}
+.bloc {
+    position: relative;
+    
+}
+.iphone {
+    display: none;
+    position: relative;
+    
+}
+.play  {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+}
+#check {
+    font-size: 24px;
+}
+.separator > p {
+    color: #FFFFFF;
+}
+.pagethree {
+    padding-top: 4%;
+    padding-bottom: 5%;
+    background-repeat: repeat;
+    background-color: #f9f9f9;
+}
+.screenshots {
+    display: flex;
+    justify-content: center;
+}
+.flex2 {
+    margin: 1%;
+}
+.pagethree > p{
+    font-size: 24px;
+    margin-left: 25.5%;
+}
+figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.pagefour {
+    justify-content: center;
+}
+.composant2 {
+    display: none;
+    position: relative;
+}
+.playpc {
+    display: flex ;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+}
+.play2 {
+     margin-left: 2%;
+     margin-top: -90%;  
+}
+.pc>  p{
+    font-size: 24px;
+}
+.pc > button {
+    position: absolute;
+}
+.responsive {
+    display: flex;
+    margin-top: 7%;
+    margin-left: 25%;
+    margin-bottom: 7%;
+}
+.layer {
+    margin: 2%;
+}
+.layer > button {
+    position: absolute;
+
+}
+.footer2 {
+    padding: 3%;
+    background-color: #f9f9f9;
+}
+#info {
+    margin-left: 7%;    
+}
+#saynasarl {
+    margin-left: 7%;
+}
+.copyright {
+    display: flex;
+    font-size: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-evenly;
+}
+@media all and (max-width: 480px) {
+    .home {
+        display: none;
+    }
+    #bigtitle {
+        font-size: 1.7rem;
+    }
+    .pageone >p {
+        font-size: .9rem;
+    }
+    
+    button {
+        width: 30%;
+        text-transform: uppercase;
+    }
+    .footer1 > p{
+        display: none;
+    }
+    .footer1 {
+        padding-top: 7%;
+    }
+    .flex {
+        margin: 0.2%;
+    }
+    .grey {
+        display: none;
+    }
+    .play {
+        display: none;
+    }
+    .iphone {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .awesomeness {
+    display: block;
+    text-align: center;
+    padding-bottom: 7%;
+    margin-left: 0%;
+    margin-right: 0%;
+    }   
+    .screenshots {
+    display:block;
+    text-align: center;
+    }
+    .screenshot3 {
+        display: none;
+    }
+    .map {
+    background-position-y: 70%;
+    }
+    .playpc {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .pc > img {
+        margin-left: 4%;
+    }
+    .composant1 {
+        display: none;
+    }
+    .composant2 {
+        position: relative;
+        display: block;
+        left: 21%;
+    }
+    .play2 {
+        display: none;
+    }
+    .pc > button {
+        right: 35%;
+        text-transform: none;
+    }
+    .responsive {
+        display: block;
+        padding-top: 5%;
+    }
+    .layer > button {
+        margin-top: -5%;
+        margin-left: 8%;
+        text-transform: none;
+    }
+    .footer2 {
+        padding-top: 10%;
+    }
+    .copyright {
+    display: block;
+    text-align: center;
+    }
+
+    }
