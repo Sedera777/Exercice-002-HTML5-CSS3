@@ -17,3 +17,6 @@
     Développement de la maquette mobile;
 
     Utilisation des media queries;
+
+!(/screenshot.jpg)
+
