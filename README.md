@@ -18,5 +18,5 @@
 
     Utilisation des media queries;
 
-!(/screenshot.jpg)
+!(screenshot.jpg)
 
