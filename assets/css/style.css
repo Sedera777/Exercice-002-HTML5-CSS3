@@ -8,6 +8,7 @@ header {
     display: flex;
     color: #FFFFFF;
     padding: 20px 0;
+    font-size: 12px;
     align-items: center;
     font-family: Helvetica, Arial, sans-serif, 'Raleway';
     background-image: url('../img/header_bg.jpg')
