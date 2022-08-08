@@ -18,5 +18,6 @@
 
     Utilisation des media queries;
 
-!(screenshot.jpg)
 
+
+![screenshot](https://user-images.githubusercontent.com/99637992/183434016-01e9d5ca-2a62-467f-bf61-28fe12f3a3e6.JPG)
